@@ -3,8 +3,8 @@ A general-purpose AI assistant with voice IO support and custom system prompts p
 `turing` can receive it's input prompt from the microphone (leveraging OpenAI's STT model), from a
 file or from standard input. The input is then processed by the target model, which may be a GPT or
 one of the image generation models. The output is then played on the system speakers (leveraging
-OpenAI's TTS model, written to a file or simply output to the console. The model's response can also
-be copied to the clipboard.
+OpenAI's TTS model), written to a file or simply output to the console. The model's response can
+also be copied to the clipboard.
 
 From the beggining, `turing` was thought of as a tool to be used via keyboard shortcuts with
 preconfigured parameters, where the user writes his/her own custom system prompts and simply types a
