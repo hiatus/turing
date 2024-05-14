@@ -4,8 +4,8 @@ OPENAI_ORGANIZATION = 'org-*'
 # Your OpenAI API key
 OPENAI_API_KEY = 'sk-proj-*'
 
-# The GPT model to use (gpt-3.5-turbo, gpt-4-turbo, etc.)
-GPT_MODEL = 'gpt-3.5-turbo'
+# The GPT model to use (gpt-3.5-turbo, gpt-4o, etc.)
+GPT_MODEL = 'gpt-4o'
 
 # The image generation model to use (dall-e-2, dall-e-3, etc.)
 IMAGE_MODEL = 'dall-e-3'

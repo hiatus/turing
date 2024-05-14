@@ -50,7 +50,7 @@ turing -i audio -o audio
 
 - Read the prompt from a file and listen to GPT-4's response
 ```
-turing -vm gpt-4-turbo -i ./prompt.txt -o audio
+turing -vm gpt-4o -i ./prompt.txt -o audio
 ```
 
 - Transcribe the prompt from the microphone and generate an image using Dall-E v3. Save the output to "image.png"
