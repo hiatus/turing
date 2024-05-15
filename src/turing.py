@@ -167,8 +167,8 @@ def text_to_speech(client: openai.Client, args):
 	if args.output == 'audio':
 		if args.verbose:
 			print_msg('Speaking')
-			speech.tts(client, prompt, model=args.model)
 
+		speech.tts(client, prompt, model=args.model)
 		return
 
 	if args.verbose:
