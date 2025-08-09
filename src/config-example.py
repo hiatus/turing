@@ -13,7 +13,7 @@ IMAGE_SIZE = '1024x1024'   # The generated image's size (for dall-e-2: 1024×102
 IMAGE_QUALITY = 'standard' # The quality of the generated image (can also be "hd")
 
 # The text-to-speech model to use (tts-1 or tts-1-hd)
-TTS_MODEL = 'tts-1'
+TTS_MODEL = 'gpt-4o-transcribe'
 TTS_VOICE = 'onyx' # The voice to use (alloy, echo, fable, onyx, nova or shimmer)
 TTS_SPEED = 1.0    # The speed at which the text will be read (values go from 0.25 to 4.0)
 
